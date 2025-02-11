@@ -30,3 +30,6 @@ h2 {
     font-size: 1.2em;
     line-height: 1.5;
 }
+h1, h2, #para {
+    background-color: grey;
+}
