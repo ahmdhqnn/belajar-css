@@ -1,36 +1,24 @@
 body {
     background-color: #1b1b1b;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
+.hero-image {
+
+    background-image: url('https://th.bing.com/th/id/OIP.pWAz6MVBo5svuJ09ahjN7gHaEK?rs=1&pid=ImgDetMain');
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.center {
+.hero-text {
     text-align: center;
-}
-
-h1 {
-    color: #fff;
-    font-size: 2em;
-    border: 2px solid #fff;
-}
-
-h2 {
-    color: #fff;
-    font-size: 1.5em;
-}
-
-#para {
-    color: #fff;
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-h1, h2, #para {
-    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
